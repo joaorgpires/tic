@@ -40,6 +40,7 @@ void fl3() {
   printf("Entropia = %.5lf\n", -sum);
 
 }
+
 int main() {
   printf("1. Valor esperado\n");
   printf("2. Surpresa\n");
