@@ -17,6 +17,8 @@ void fl1() {
     sum += p * f;
   }
   
+  printf("------------------------------------------------\n");
+  
   printf("Valor esperado = %.5lf\n", sum);
 }
 
@@ -24,6 +26,8 @@ void fl1() {
 void fl2() {
   double p; printf("Probabilidade: "); scanf("%lf", &p);
   
+  printf("------------------------------------------------\n");
+    
   printf("Surpresa = %.5lf\n", -log2(p));
 }
 
@@ -36,6 +40,8 @@ void fl3() {
     double p; scanf("%lf", &p);
     sum += p * log2(p);
   }
+  
+  printf("------------------------------------------------\n");
   
   printf("Entropia = %.5lf\n", -sum);
 
